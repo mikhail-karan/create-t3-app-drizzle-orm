@@ -5,6 +5,7 @@ import {
   type DefaultSession,
 } from "next-auth";
 import TwitchProvider from "next-auth/providers/twitch";
+import GithubProvider from "next-auth/providers/github";
 
 import { env } from "~/env.mjs";
 import { DrizzleSqliteAdapter } from "./adapters/drizzle-adapter";
@@ -61,9 +62,9 @@ export const authOptions: NextAuthOptions = {
     //   clientId: env.DISCORD_CLIENT_ID,
     //   clientSecret: env.DISCORD_CLIENT_SECRET,
     // }),
-    TwitchProvider({
-      clientId: env.TWITCH_CLIENT_ID,
-      clientSecret: env.TWITCH_CLIENT_SECRET,
+    GithubProvider({
+      clientId: env.GITHUB_CLIENT_ID,
+      clientSecret: env.GITHUB_CLIENT_SECRET,
     }),
 
     /**

@@ -16,8 +16,8 @@
     "@trpc/next": "^10.9.0",
     "@trpc/react-query": "^10.9.0",
     "@trpc/server": "^10.9.0",
-    "better-sqlite3": "^8.1.0",
-    "drizzle-orm": "^0.21.1",
+    "better-sqlite3": "^8.2.0",
+    "drizzle-orm": "^0.23.2",
     "install": "^0.13.0",
     "next": "^13.2.1",
     "next-auth": "^4.19.0",
@@ -28,6 +28,7 @@
     "zod": "^3.20.6"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.3",
     "@types/eslint": "^8.21.1",
     "@types/node": "^18.14.0",
     "@types/prettier": "^2.7.2",
@@ -36,7 +37,7 @@
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
     "autoprefixer": "^10.4.7",
-    "drizzle-kit": "^0.17.0",
+    "drizzle-kit": "^0.17.1",
     "eslint": "^8.34.0",
     "eslint-config-next": "^13.2.1",
     "postcss": "^8.4.14",
